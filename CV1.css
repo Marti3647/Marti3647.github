@@ -2,7 +2,6 @@ p { font-size: 80%; color: black;
 } /* for å endre teksten i pagen, så minket jeg størrelsen ved hjelp av font-size */
 
 body { 
-    background-color: white;} /* Jeg brukte body{ for å gjøre endringer på hele siden, og dermed skifte sidefargen til hvit */
     background-image: url(images/bc.jpg);
     background-position: center;}
 
