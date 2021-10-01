@@ -3,6 +3,8 @@ p { font-size: 80%; color: black;
 
 body { 
     background-color: white;} /* Jeg brukte body{ for å gjøre endringer på hele siden, og dermed skifte sidefargen til hvit */
+    background-image: url(images/bc.jpg);
+    background-position: center;}
 
 h2 { background-color: RGB(232, 220, 184);} 
 /* Jeg brukte box-modellen for å finne ut hvordan jeg kunne legge til farge rundt titlene. PÅ den måten blir CV-en mer
@@ -20,6 +22,34 @@ h3 {
 h3, p, ul, li{
         font-family: 'Open Sans', sans-serif; /*HEr endret jeg skriftstypen i listene for å skape litt variasjon*/
  }  
+.header {
+    color:rgb(218, 160, 74);
+    font-size: 2em; 
+    width: 100%; 
+    text-align: center; 
+
+header > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(110, 4, 4);
+  }
+  
+li {
+    float: left;
+  }
+  
+ li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ li a:hover {
+    background-color: rgb(110, 4, 4);}
 
 
 
